@@ -101,7 +101,22 @@ def generate() -> None:
 
     for row in rows:
         stage = str(row.get("stage", "")).strip()
-        date_iso = row["date_iso"]
+        date_iso = row.get("date_iso")
+        if not date_iso:
+            # Fallback for rows edited by hand on GitHub UI
+            for src_key in ("date", "date_vi"):
+                raw = str(row.get(src_key, "")).strip()
+                if not raw:
+                    continue
+                # Accept YYYY-MM-DD or DD month YYYY / DD tháng M năm YYYY if present manually.
+                try:
+                    if raw.count("-") == 2 and len(raw) == 10:
+                        date_iso = raw
+                        break
+                except Exception:
+                    pass
+            if not date_iso:
+                raise KeyError(f"Missing date_iso for stage={stage!r}; add date_iso in tour-de-france-2026.json")
         dt = datetime.strptime(date_iso, "%Y-%m-%d")
         is_rest = stage == "-" or "rest" in row.get("type", "").lower() or "rest" in row.get("route", "").lower()
         summary = (

@@ -27,7 +27,15 @@
     "profile_score_vi": "137",
     "vertical_meters_vi": "2049 mét",
     "departure_vi": "Tarragona",
-    "arrival_vi": "Barcelona"
+    "arrival_vi": "Barcelona",
+    "date_iso": "2026-07-05",
+    "route": "Tarragone > Barcelone",
+    "type": "Hilly",
+    "start": "Tarragona",
+    "finish": "Barcelona",
+    "profile_url": "https://www.letour.fr/en/stage-2",
+    "image_url": "https://www.letour.fr/img/global/logo-og.png",
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
   },
   {
     "stage": "3",
