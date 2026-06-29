@@ -63,13 +63,6 @@ def stage_description(row: dict, stage: str) -> str:
             f"Lộ trình: {row.get('route', '')}",
         ]
 
-    lines.append(f"Bình độ/cao độ: {row.get('elevation_note', 'Xem link nguồn chính thức')}")
-    if row.get("image_url"):
-        lines.append(f"Hình ảnh chặng: {row.get('image_url')}")
-    lines.append(
-        "Nguồn/Bình độ: "
-        + (row.get("profile_url") or row.get("detail") or "https://www.letour.fr/en/overall-route")
-    )
     return "\n".join(lines)
 
 
