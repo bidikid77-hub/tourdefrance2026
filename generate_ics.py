@@ -23,6 +23,22 @@ def esc(value: object) -> str:
     )
 
 
+def stage_type_emoji(row: dict) -> str:
+    """Return compact emoji marker for the stage type."""
+    raw = f"{row.get('type', '')} {row.get('terrain_type_vi', '')}".lower()
+    if "team time" in raw or "ttt" in raw or "tính giờ đồng đội" in raw:
+        return "⏱️👥"
+    if "individual time" in raw or "itt" in raw or "chặng tính giờ" in raw or "tính giờ cá nhân" in raw:
+        return "⏱️"
+    if "mountain" in raw or "leo núi" in raw:
+        return "⛰️"
+    if "hilly" in raw or "đồi núi" in raw:
+        return "🌄"
+    if "flat" in raw or "bằng phẳng" in raw:
+        return "🚴‍♂️"
+    return ""
+
+
 def stage_description(row: dict, stage: str) -> str:
     """Build DESCRIPTION. Uses compact Vietnamese race-info fields when available."""
     has_vi_detail = any(
@@ -99,10 +115,11 @@ def generate() -> None:
                 raise KeyError(f"Missing date_iso for stage={stage!r}; add date_iso in tour-de-france-2026.json")
         dt = datetime.strptime(date_iso, "%Y-%m-%d")
         is_rest = stage == "-" or "rest" in row.get("type", "").lower() or "rest" in row.get("route", "").lower()
+        emoji = stage_type_emoji(row)
         summary = (
             f"Tour de France 2026 · Rest Day · {row.get('route', '')}"
             if is_rest
-            else f"Tour de France 2026 · Chặng {stage} · {row.get('route', '')}"
+            else f"Tour de France 2026 · {emoji} Chặng {stage} · {row.get('route', '')}"
         )
         uid = hashlib.sha1(
             f"tdf2026-{date_iso}-{stage}-{row.get('route', '')}".encode("utf-8")
