@@ -7,208 +7,208 @@ X-WR-CALNAME:Tour de France 2026
 X-WR-TIMEZONE:Asia/Ho_Chi_Minh
 BEGIN:VEVENT
 UID:685541c7d1538aec506c916b7ccbe1d9d4fd0a2b@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
-SUMMARY:Tour de France 2026 · ⏱️👥 Chặng 1 · Barcelone > Barcelone
+SUMMARY:TDF2026 · ⏱️👥 Chặng 1 · Barcelone > Barcelone
 DESCRIPTION:Thông tin cuộc đua Chặng 1 (TTT)\nNgày: 04 tháng 7 năm 2026\nGiờ bắt đầu: 17:05\nKhoảng cách: 19\,4 km\nLoại đường đua: Đua tính giờ đồng đội\nĐộ dốc km cuối: 6\,0%\nĐộ cao chênh lệch: 220 mét\nĐiểm xuất phát: Barcelona\nĐiểm đến: Barcelona
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:877419ad6bb9e826fe48c47383ec0f629e1e060d@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
-SUMMARY:Tour de France 2026 · 🌄 Chặng 2 · Tarragone > Barcelone
+SUMMARY:TDF2026 · 🌄 Chặng 2 · Tarragone > Barcelone
 DESCRIPTION:Thông tin cuộc đua\nNgày: 05 tháng 7 năm 2026\nGiờ bắt đầu: 13:55\nKhoảng cách: 169\,2 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: 3\,6%\nĐộ cao chênh lệch: 2049 mét\nĐiểm xuất phát: Tarragona\nĐiểm đến: Barcelona
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:91f61da750b86ce31123a3a0f79b8163a14fca80@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260707
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 3 · Granollers > Les Angles
+SUMMARY:TDF2026 · ⛰️ Chặng 3 · Granollers > Les Angles
 DESCRIPTION:Thông tin cuộc đua Chặng 3\nNgày: 06 tháng 7 năm 2026\nGiờ bắt đầu: 12:20\nKhoảng cách: 196\,2 km\nLoại đường đua: Chặng leo núi\nĐộ dốc km cuối: 6\,8%\nĐộ cao chênh lệch: 3940 mét\nĐiểm xuất phát: Granollers\nĐiểm đến: Les Angles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b01291b9c6de32f02a7b4168fb08f3c736c614ee@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
-SUMMARY:Tour de France 2026 · 🌄 Chặng 4 · Carcassonne > Foix
+SUMMARY:TDF2026 · 🌄 Chặng 4 · Carcassonne > Foix
 DESCRIPTION:Thông tin cuộc đua Chặng 4\nNgày: 07 tháng 7 năm 2026\nGiờ bắt đầu: 13:25\nKhoảng cách: 182\,4 km\nLoại đường đua: Chặng đồi núi\nĐộ dốc km cuối: 0\,8%\nĐộ cao chênh lệch: 2784 mét\nĐiểm xuất phát: Carcassonne\nĐiểm đến: Foix
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2e46870e0b801e04b20dab9b3d4f5b60f001de3a@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 5 · Lannemezan > Pau
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 5 · Lannemezan > Pau
 DESCRIPTION:Thông tin cuộc đua Chặng 5\nNgày: 08 tháng 7 năm 2026\nGiờ bắt đầu: 14:15\nKhoảng cách: 158\,3 km\nLoại đường đua: Đường bằng phẳng\nĐộ dốc km cuối: 0\,5%\nĐộ cao chênh lệch: 1395 mét\nĐiểm xuất phát: Lannemezan\nĐiểm đến: Pau
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f395ae588879246439b23c7e10366ffefc831760@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 6 · Pau > Gavarnie-Gèdre
+SUMMARY:TDF2026 · ⛰️ Chặng 6 · Pau > Gavarnie-Gèdre
 DESCRIPTION:Thông tin cuộc đua Chặng 6\nNgày: 09 tháng 7 năm 2026\nGiờ bắt đầu: 12:40\nKhoảng cách: 186\,4 km\nLoại đường đua: Chặng leo núi\nĐộ dốc km cuối: 4\,2%\nĐộ cao chênh lệch: 4149 mét\nĐiểm xuất phát: Pau\nĐiểm đến: Gavarnie-Gèdre
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2beb879cf7c368b5f8084b3c7798c61fa76b79fa@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 7 · Hagetmau > Bordeaux
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 7 · Hagetmau > Bordeaux
 DESCRIPTION:Thông tin cuộc đua Chặng 7\nNgày: 10 tháng 7 năm 2026\nGiờ bắt đầu: 13:25\nKhoảng cách: 175 km\nLoại đường đua: Đường bằng phẳng\nĐộ dốc km cuối: 0\,5%\nĐộ cao chênh lệch: 701 mét\nĐiểm xuất phát: Hagetmau\nĐiểm đến: Bordeaux
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:6c46ae46c1753612afd39289639e90083f0dcdef@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 8 · Périgueux > Bergerac
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 8 · Périgueux > Bergerac
 DESCRIPTION:Thông tin cuộc đua\nNgày: 11 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 180\,4 km\nLoại đường đua: Chặng đường bằng phẳng\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Périgueux\nĐiểm đến: Bergerac
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:cd829c7c49cb66dc21410eb2d583a3e0e3e7bf16@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
-SUMMARY:Tour de France 2026 · 🌄 Chặng 9 · Malemort > Ussel
+SUMMARY:TDF2026 · 🌄 Chặng 9 · Malemort > Ussel
 DESCRIPTION:Thông tin cuộc đua\nNgày: 12 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 185\,5 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Malemort\nĐiểm đến: Ussel
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9578fe8e7ff0529a42c8ca8149da17dec0ce0f7d@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
-SUMMARY:Tour de France 2026 · Rest Day · Cantal
+SUMMARY:TDF2026 · Rest Day · Cantal
 DESCRIPTION:Điểm xuất phát: Cantal\nĐiểm đích: \nCự ly chặng: \nLoại chặng: Rest Day\nNgày: 2026-07-13\nLộ trình: Cantal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fac119afc6ce2a20712adfa4f7826aae3f6fc324@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 10 · Aurillac > Le Lioran
+SUMMARY:TDF2026 · ⛰️ Chặng 10 · Aurillac > Le Lioran
 DESCRIPTION:Thông tin cuộc đua\nNgày: 14 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 166\,6 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Aurillac\nĐiểm đến: Le Lioran
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:eee4cf1fc01d79547bc3bf6457760866fac67cc0@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 11 · Vichy > Nevers
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 11 · Vichy > Nevers
 DESCRIPTION:Thông tin cuộc đua\nNgày: 15 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 161\,3 km\nLoại đường đua: Chặng đường bằng phẳng\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Vichy\nĐiểm đến: Nevers
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:89ba3d14bd404b30b876beded2a407529acdaaf4@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 12 · Circuit Nevers Magny-Cours > Chalon-sur-Saône
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 12 · Circuit Nevers Magny-Cours > Chalon-sur-Saône
 DESCRIPTION:Thông tin cuộc đua\nNgày: 16 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 179\,1 km\nLoại đường đua: Chặng đường bằng phẳng\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Circuit Nevers Magny-Cours\nĐiểm đến: Chalon-sur-Saône
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:92599cb69bce4b6774013721fce8703465c6d6f2@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
-SUMMARY:Tour de France 2026 · 🌄 Chặng 13 · Dole > Belfort
+SUMMARY:TDF2026 · 🌄 Chặng 13 · Dole > Belfort
 DESCRIPTION:Thông tin cuộc đua\nNgày: 17 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 205\,8 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Dole\nĐiểm đến: Belfort
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a655b499ca10ca824d21e36a210a53b55dd3f46d@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 14 · Mulhouse > Le Markstein Fellering
+SUMMARY:TDF2026 · ⛰️ Chặng 14 · Mulhouse > Le Markstein Fellering
 DESCRIPTION:Thông tin cuộc đua\nNgày: 18 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 155\,3 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Mulhouse\nĐiểm đến: Le Markstein Fellering
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f0ac39c31b683e96e41628ce7f36425b6ae59564@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 15 · Champagnole > Plateau de Solaison
+SUMMARY:TDF2026 · ⛰️ Chặng 15 · Champagnole > Plateau de Solaison
 DESCRIPTION:Thông tin cuộc đua\nNgày: 19 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 183\,9 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Champagnole\nĐiểm đến: Plateau de Solaison
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:81807de88c06ddca4487802054f4f4b4c2c77239@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260721
-SUMMARY:Tour de France 2026 · Rest Day · Haute-savoie
+SUMMARY:TDF2026 · Rest Day · Haute-savoie
 DESCRIPTION:Điểm xuất phát: Haute-savoie\nĐiểm đích: \nCự ly chặng: \nLoại chặng: Rest Day\nNgày: 2026-07-20\nLộ trình: Haute-savoie
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a1e9b196d295a9ca29d0ece72aa5e05830460cf1@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
-SUMMARY:Tour de France 2026 · ⏱️ Chặng 16 · Évian-les-Bains > Thonon-les-Bains
+SUMMARY:TDF2026 · ⏱️ Chặng 16 · Évian-les-Bains > Thonon-les-Bains
 DESCRIPTION:Thông tin cuộc đua\nNgày: 21 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 26\,1 km\nLoại đường đua: Chặng tính giờ\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Évian-les-Bains\nĐiểm đến: Thonon-les-Bains
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1b0d3760f8fdb54f6ec145833aefaa555dbbedcc@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 17 · Chambery > Voiron
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 17 · Chambery > Voiron
 DESCRIPTION:Thông tin cuộc đua\nNgày: 22 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 174\,7 km\nLoại đường đua: Chặng đường bằng phẳng\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Chambery\nĐiểm đến: Voiron
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fa0004a4c285b05e9ca985aefb5fa0f69745373a@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 18 · Voiron > Orcières-Merlette
+SUMMARY:TDF2026 · ⛰️ Chặng 18 · Voiron > Orcières-Merlette
 DESCRIPTION:Thông tin cuộc đua\nNgày: 23 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 185\,2 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Voiron\nĐiểm đến: Orcières-Merlette
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5f7ec769ad513c5cfc545353248d67d19592b2ee@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 19 · Gap > Alpe d'Huez
+SUMMARY:TDF2026 · ⛰️ Chặng 19 · Gap > Alpe d'Huez
 DESCRIPTION:Thông tin cuộc đua\nNgày: 24 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 127\,9 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Gap\nĐiểm đến: Alpe d'Huez
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0d8beae203a5d2efbbdee460d44fd3a85aa44f3b@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
-SUMMARY:Tour de France 2026 · ⛰️ Chặng 20 · Le Bourg d'Oisans > Alpe d'Huez
+SUMMARY:TDF2026 · ⛰️ Chặng 20 · Le Bourg d'Oisans > Alpe d'Huez
 DESCRIPTION:Thông tin cuộc đua\nNgày: 25 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 170\,9 km\nLoại đường đua: Chặng đường đồi núi\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Le Bourg d'Oisans\nĐiểm đến: Alpe d'Huez
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2b9df1bfd5dc15e6fcae3f4836294f9ff24ba57f@nguyenvu
-DTSTAMP:20260701T095256Z
+DTSTAMP:20260701T095338Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
-SUMMARY:Tour de France 2026 · 🚴‍♂️ Chặng 21 · Thoiry > Paris Champs-Élysées
+SUMMARY:TDF2026 · 🚴‍♂️ Chặng 21 · Thoiry > Paris Champs-Élysées
 DESCRIPTION:Thông tin cuộc đua\nNgày: 26 tháng 7 năm 2026\nGiờ bắt đầu: \nKhoảng cách: 133 km\nLoại đường đua: Chặng đường bằng phẳng\nĐộ dốc km cuối: \nĐộ cao chênh lệch: \nĐiểm xuất phát: Thoiry\nĐiểm đến: Paris Champs-Élysées
 STATUS:CONFIRMED
 END:VEVENT

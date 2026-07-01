@@ -117,9 +117,9 @@ def generate() -> None:
         is_rest = stage == "-" or "rest" in row.get("type", "").lower() or "rest" in row.get("route", "").lower()
         emoji = stage_type_emoji(row)
         summary = (
-            f"Tour de France 2026 · Rest Day · {row.get('route', '')}"
+            f"TDF2026 · Rest Day · {row.get('route', '')}"
             if is_rest
-            else f"Tour de France 2026 · {emoji} Chặng {stage} · {row.get('route', '')}"
+            else f"TDF2026 · {emoji} Chặng {stage} · {row.get('route', '')}"
         )
         uid = hashlib.sha1(
             f"tdf2026-{date_iso}-{stage}-{row.get('route', '')}".encode("utf-8")
