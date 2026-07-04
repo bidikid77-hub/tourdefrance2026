@@ -22,7 +22,9 @@
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
     "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
     "race_info_title_vi": "Thông tin cuộc đua Chặng 1 (TTT)",
-    "terrain_type_vi": "Đua tính giờ đồng đội"
+    "terrain_type_vi": "Đua tính giờ đồng đội",
+    "stage_winner": "J. VINGEGAARD",
+    "status": "completed"
   },
   {
     "stage": "2",
