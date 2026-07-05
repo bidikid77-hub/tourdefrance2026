@@ -83,8 +83,16 @@ def stage_description(row: dict, stage: str) -> str:
         lines.append(f"Trạng thái: {row.get('status')}")
     if row.get('stage_winner'):
         lines.append(f"Người thắng chặng: {row.get('stage_winner')}")
-    if row.get('gc_leader'):
-        lines.append(f"Áo vàng tổng sắp: {row.get('gc_leader')}")
+    if row.get('yellow_jersey') or row.get('gc_leader'):
+        lines.append(f"Áo vàng tổng sắp: {row.get('yellow_jersey') or row.get('gc_leader')}")
+    if row.get('green_jersey'):
+        lines.append(f"Áo xanh điểm: {row.get('green_jersey')}")
+    if row.get('polka_dot_jersey'):
+        lines.append(f"Áo chấm bi leo núi: {row.get('polka_dot_jersey')}")
+    if row.get('white_jersey'):
+        lines.append(f"Áo trắng trẻ: {row.get('white_jersey')}")
+    if row.get('team_classification_leader'):
+        lines.append(f"Đội dẫn đầu: {row.get('team_classification_leader')}")
 
     return "\n".join(lines)
 

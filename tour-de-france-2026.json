@@ -24,7 +24,12 @@
     "race_info_title_vi": "Thông tin cuộc đua Chặng 1 (TTT)",
     "terrain_type_vi": "Đua tính giờ đồng đội",
     "stage_winner": "J. VINGEGAARD",
-    "status": "completed"
+    "status": "completed",
+    "yellow_jersey": "J. VINGEGAARD",
+    "green_jersey": "E. BERNAL",
+    "polka_dot_jersey": "T. POGACAR",
+    "white_jersey": "J. AYUSO",
+    "gc_leader": "J. VINGEGAARD"
   },
   {
     "stage": "2",
