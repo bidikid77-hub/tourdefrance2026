@@ -59,7 +59,18 @@
     "finish": "Barcelona",
     "profile_url": "https://www.letour.fr/en/stage-2",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "stage_winner_time": "11h 00′ 42″",
+    "yellow_jersey": "J. VINGEGAARD",
+    "yellow_jersey_total_time": "04h 01′ 48″",
+    "green_jersey": "I. DEL TORO",
+    "green_jersey_points": "30 PTS",
+    "polka_dot_jersey": "A. MOLENAAR",
+    "polka_dot_jersey_points": "5 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "04h 02′ 04″",
+    "team_classification_total_time": "12h 09′ 07″",
+    "gc_leader": "J. VINGEGAARD"
   },
   {
     "stage": "3",
