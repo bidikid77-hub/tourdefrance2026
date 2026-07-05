@@ -82,17 +82,23 @@ def stage_description(row: dict, stage: str) -> str:
     if row.get('status'):
         lines.append(f"Trạng thái: {row.get('status')}")
     if row.get('stage_winner'):
-        lines.append(f"Người thắng chặng: {row.get('stage_winner')}")
+        extra = f" · {row.get('stage_winner_time')}" if row.get('stage_winner_time') else ""
+        lines.append(f"🏁 Người thắng chặng: {row.get('stage_winner')}{extra}")
     if row.get('yellow_jersey') or row.get('gc_leader'):
-        lines.append(f"Áo vàng tổng sắp: {row.get('yellow_jersey') or row.get('gc_leader')}")
+        extra = f" · {row.get('yellow_jersey_total_time')}" if row.get('yellow_jersey_total_time') else ""
+        lines.append(f"🟨 Áo vàng tổng sắp: {row.get('yellow_jersey') or row.get('gc_leader')}{extra}")
     if row.get('green_jersey'):
-        lines.append(f"Áo xanh điểm: {row.get('green_jersey')}")
+        extra = f" · {row.get('green_jersey_points')}" if row.get('green_jersey_points') else ""
+        lines.append(f"🟩 Áo xanh điểm: {row.get('green_jersey')}{extra}")
     if row.get('polka_dot_jersey'):
-        lines.append(f"Áo chấm bi leo núi: {row.get('polka_dot_jersey')}")
+        extra = f" · {row.get('polka_dot_jersey_points')}" if row.get('polka_dot_jersey_points') else ""
+        lines.append(f"🔴⚪ Áo chấm bi leo núi: {row.get('polka_dot_jersey')}{extra}")
     if row.get('white_jersey'):
-        lines.append(f"Áo trắng trẻ: {row.get('white_jersey')}")
+        extra = f" · {row.get('white_jersey_total_time')}" if row.get('white_jersey_total_time') else ""
+        lines.append(f"⬜ Áo trắng trẻ: {row.get('white_jersey')}{extra}")
     if row.get('team_classification_leader'):
-        lines.append(f"Đội dẫn đầu: {row.get('team_classification_leader')}")
+        extra = f" · {row.get('team_classification_total_time')}" if row.get('team_classification_total_time') else ""
+        lines.append(f"👥 Đội dẫn đầu: {row.get('team_classification_leader')}{extra}")
 
     return "\n".join(lines)
 

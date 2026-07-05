@@ -38,6 +38,22 @@ RANKING_FIELDS = {
     "ijg": "white_jersey",
     "etg": "team_classification_leader",
 }
+VALUE_FIELDS = {
+    "ete": "stage_winner_time",
+    "itg": "yellow_jersey_total_time",
+    "ipg": "green_jersey_points",
+    "img": "polka_dot_jersey_points",
+    "ijg": "white_jersey_total_time",
+    "etg": "team_classification_total_time",
+}
+EMOJI_FIELDS = {
+    "stage_winner": "🏁",
+    "yellow_jersey": "🟨",
+    "green_jersey": "🟩",
+    "polka_dot_jersey": "🔴⚪",
+    "white_jersey": "⬜",
+    "team_classification_leader": "👥",
+}
 
 
 def fetch(url: str) -> str:
@@ -60,12 +76,38 @@ def stage_date_iso(row: dict) -> str | None:
     return None
 
 
+def clean_text(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " | ", value)
+    value = html_lib.unescape(value)
+    return re.sub(r"\s+", " ", value).strip(" |\t\r\n")
+
+
+def first_result(html: str, typ: str) -> tuple[str | None, str | None]:
+    for m in re.finditer(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+        block = m.group(1)
+        if "rankingTables__row__profile--name" not in block and "break-line team" not in block:
+            continue
+        name_m = re.search(r'rankingTables__row__profile--name"[^>]*>\s*([^<]+)', block)
+        if name_m:
+            name = re.sub(r"\s+", " ", html_lib.unescape(name_m.group(1))).strip()
+        else:
+            team_m = re.search(r'<td class="break-line team"[^>]*>(.*?)</td>', block, re.S)
+            name = clean_text(team_m.group(1)).replace(" | ", " ") if team_m else ""
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", block, re.S)
+        texts = [clean_text(c) for c in cells]
+        value = ""
+        if typ in {"ete", "itg", "ijg", "etg"}:
+            value = next((t for t in texts if re.search(r"\d{2}h\s*\d{2}'\s*\d{2}''", t)), "")
+        elif typ in {"ipg", "img"}:
+            value = next((t for t in texts if re.search(r"\d+\s*PT", t, re.I)), "")
+        value = value.replace("''", "″").replace("'", "′")
+        return (name or None), (value or None)
+    return None, None
+
+
 def first_name(html: str) -> str | None:
-    m = re.search(r'rankingTables__row__profile--name"[^>]*>\s*([^<]+)', html)
-    if not m:
-        return None
-    name = re.sub(r"\s+", " ", html_lib.unescape(m.group(1))).strip()
-    return name or None
+    name, _ = first_result(html, "itg")
+    return name
 
 
 def ajax_paths(page_html: str) -> dict[str, str]:
@@ -99,14 +141,18 @@ def fetch_rankings(stage: int) -> dict[str, str]:
             html = fetch("https://www.letour.fr" + path)
         except Exception:
             continue
-        name = first_name(html)
+        name, value = first_result(html, typ)
         if name:
             out[field] = name
+        if value:
+            out[VALUE_FIELDS[typ]] = value
     # Fallback: visible page usually starts with general leader.
     if "yellow_jersey" not in out:
-        name = first_name(page)
+        name, value = first_result(page, "itg")
         if name:
             out["yellow_jersey"] = name
+        if value:
+            out["yellow_jersey_total_time"] = value
     if "gc_leader" not in out and out.get("yellow_jersey"):
         out["gc_leader"] = out["yellow_jersey"]
     return out
@@ -150,7 +196,10 @@ def main() -> int:
             row_changed = True
         if row_changed:
             changed = True
-            messages.append(f"Chặng {n}: {row.get('stage_winner', '')} · Áo vàng: {row.get('yellow_jersey') or row.get('gc_leader', '')}")
+            messages.append(
+                f"🏁 Chặng {n}: {row.get('stage_winner', '')} {row.get('stage_winner_time', '')} · "
+                f"🟨 Áo vàng: {row.get('yellow_jersey') or row.get('gc_leader', '')} {row.get('yellow_jersey_total_time', '')}"
+            )
 
     if not changed:
         return 0
