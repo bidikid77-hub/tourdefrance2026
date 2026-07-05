@@ -7,19 +7,19 @@ Lịch WebCal/ICS cho **Tour de France 2026**.
 ### Apple Calendar / iPhone
 
 ```text
-webcal://bidikid77-hub.github.io/tourdefrance2026-calendar/tour-de-france-2026.ics
+webcal://bidikid77-hub.github.io/tourdefrance2026/tour-de-france-2026.ics
 ```
 
 ### HTTPS ICS
 
 ```text
-https://bidikid77-hub.github.io/tourdefrance2026-calendar/tour-de-france-2026.ics
+https://bidikid77-hub.github.io/tourdefrance2026/tour-de-france-2026.ics
 ```
 
 ### Trang xem nhanh
 
 ```text
-https://bidikid77-hub.github.io/tourdefrance2026-calendar/
+https://bidikid77-hub.github.io/tourdefrance2026/
 ```
 
 ## Thông tin tổng quan
