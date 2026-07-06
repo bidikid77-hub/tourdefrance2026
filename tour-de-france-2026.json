@@ -95,7 +95,20 @@
     "gradient_final_km_vi": "6,8%",
     "vertical_meters_vi": "3940 mét",
     "departure_vi": "Granollers",
-    "arrival_vi": "Les Angles"
+    "arrival_vi": "Les Angles",
+    "stage_winner": "T. POGACAR",
+    "stage_winner_time": "04h 45′ 11″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "08h 46′ 55″",
+    "green_jersey": "T. POGACAR",
+    "green_jersey_points": "55 PTS",
+    "polka_dot_jersey": "A. BAUDIN",
+    "polka_dot_jersey_points": "12 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "08h 47′ 19″",
+    "team_classification_total_time": "26h 25′ 34″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "4",
