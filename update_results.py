@@ -31,7 +31,7 @@ END_DATE = date(2026, 7, 26)
 VN_TZ = timezone(timedelta(hours=7))
 
 RANKING_FIELDS = {
-    "ete": "stage_winner",
+    "ite": "stage_winner",
     "itg": "yellow_jersey",
     "ipg": "green_jersey",
     "img": "polka_dot_jersey",
@@ -39,7 +39,7 @@ RANKING_FIELDS = {
     "etg": "team_classification_leader",
 }
 VALUE_FIELDS = {
-    "ete": "stage_winner_time",
+    "ite": "stage_winner_time",
     "itg": "yellow_jersey_total_time",
     "ipg": "green_jersey_points",
     "img": "polka_dot_jersey_points",
@@ -96,7 +96,7 @@ def first_result(html: str, typ: str) -> tuple[str | None, str | None]:
         cells = re.findall(r"<td[^>]*>(.*?)</td>", block, re.S)
         texts = [clean_text(c) for c in cells]
         value = ""
-        if typ in {"ete", "itg", "ijg", "etg"}:
+        if typ in {"ite", "ete", "itg", "ijg", "etg"}:
             value = next((t for t in texts if re.search(r"\d{2}h\s*\d{2}'\s*\d{2}''", t)), "")
         elif typ in {"ipg", "img"}:
             value = next((t for t in texts if re.search(r"\d+\s*PT", t, re.I)), "")
@@ -113,17 +113,19 @@ def first_name(html: str) -> str | None:
 def ajax_paths(page_html: str) -> dict[str, str]:
     paths: dict[str, str] = {}
 
-    # Overall sub-tabs: ITG/IPG/IMG/IJG/ETG
+    # Prefer visible ranking tabs first. These can point at `/subtab` endpoints
+    # with the actual stage winner data, while `data-ajax-stack` may expose
+    # fallback `/none` endpoints missing rider names for some stage tabs.
     for path, typ in re.findall(
-        r'data-tabs-ajax="([^"]+)"[^>]*data-type="(itg|ipg|img|ijg|etg)"',
+        r'data-tabs-ajax="([^"]+)"[^>]*data-type="(ite|ipe|ime|ije|ete|ice|itg|ipg|img|ijg|etg|icg)"',
         page_html,
     ):
         paths[typ] = html_lib.unescape(path).replace("\\/", "/")
 
-    # Stage ranking ETE lives in data-ajax-stack JSON-ish attribute.
+    # Keep JSON-ish stack as fallback only for missing tabs.
     for raw in re.findall(r"data-ajax-stack\s*=\s*({[^}]+})", page_html):
         raw = html_lib.unescape(raw).replace("\\/", "/")
-        for typ, path in re.findall(r'"(ete|itg|ipg|img|ijg|etg)"\s*:\s*"([^"]+)"', raw):
+        for typ, path in re.findall(r'"(ite|ipe|ime|ije|ete|ice|itg|ipg|img|ijg|etg|icg)"\s*:\s*"([^"]+)"', raw):
             paths.setdefault(typ, path)
 
     return paths
