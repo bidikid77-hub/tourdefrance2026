@@ -131,7 +131,20 @@
     "gradient_final_km_vi": "0,8%",
     "vertical_meters_vi": "2784 mét",
     "departure_vi": "Carcassonne",
-    "arrival_vi": "Foix"
+    "arrival_vi": "Foix",
+    "stage_winner": "M. PEDERSEN",
+    "stage_winner_time": "04h 10′ 45″",
+    "yellow_jersey": "T. TRÆEN",
+    "yellow_jersey_total_time": "13h 02′ 46″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "103 PTS",
+    "polka_dot_jersey": "A. BAUDIN",
+    "polka_dot_jersey_points": "12 PTS",
+    "white_jersey": "M. VACEK",
+    "white_jersey_total_time": "13h 06′ 36″",
+    "team_classification_total_time": "39h 04′ 13″",
+    "gc_leader": "T. TRÆEN",
+    "status": "completed"
   },
   {
     "stage": "5",
