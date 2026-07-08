@@ -167,7 +167,20 @@
     "gradient_final_km_vi": "0,5%",
     "vertical_meters_vi": "1395 mét",
     "departure_vi": "Lannemezan",
-    "arrival_vi": "Pau"
+    "arrival_vi": "Pau",
+    "stage_winner": "O. KOOIJ",
+    "stage_winner_time": "03h 29′ 07″",
+    "yellow_jersey": "T. TRÆEN",
+    "yellow_jersey_total_time": "16h 32′ 07″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "143 PTS",
+    "polka_dot_jersey": "A. BAUDIN",
+    "polka_dot_jersey_points": "13 PTS",
+    "white_jersey": "M. VACEK",
+    "white_jersey_total_time": "16h 35′ 57″",
+    "team_classification_total_time": "49h 32′ 02″",
+    "gc_leader": "T. TRÆEN",
+    "status": "completed"
   },
   {
     "stage": "6",
