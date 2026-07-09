@@ -203,7 +203,20 @@
     "gradient_final_km_vi": "4,2%",
     "vertical_meters_vi": "4149 mét",
     "departure_vi": "Pau",
-    "arrival_vi": "Gavarnie-Gèdre"
+    "arrival_vi": "Gavarnie-Gèdre",
+    "stage_winner": "T. POGACAR",
+    "stage_winner_time": "04h 32′ 07″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "21h 11′ 57″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "168 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "28 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "21h 15′ 24″",
+    "team_classification_total_time": "63h 25′ 20″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "7",
