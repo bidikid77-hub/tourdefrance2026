@@ -240,7 +240,20 @@
     "vertical_meters_vi": "701 mét",
     "departure_vi": "Hagetmau",
     "arrival_vi": "Bordeaux",
-    "profile_score_vi": "13"
+    "profile_score_vi": "13",
+    "stage_winner": "T. MERLIER",
+    "stage_winner_time": "03h 44′ 20″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "24h 56′ 17″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "204 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "28 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "24h 59′ 44″",
+    "team_classification_total_time": "74h 38′ 20″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "8",
