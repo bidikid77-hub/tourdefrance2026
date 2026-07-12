@@ -312,7 +312,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Malemort",
-    "arrival_vi": "Ussel"
+    "arrival_vi": "Ussel",
+    "stage_winner": "M. VAN DER POEL",
+    "stage_winner_time": "03h 27′ 51″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "32h 17′ 04″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "268 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "28 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "32h 20′ 31″",
+    "team_classification_total_time": "96h 40′ 41″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "-",
