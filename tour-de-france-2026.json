@@ -362,7 +362,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Aurillac",
-    "arrival_vi": "Le Lioran"
+    "arrival_vi": "Le Lioran",
+    "stage_winner": "T. POGACAR",
+    "stage_winner_time": "03h 58′ 08″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "36h 15′ 02″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "293 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "42 PTS",
+    "white_jersey": "J. AYUSO",
+    "white_jersey_total_time": "36h 19′ 24″",
+    "team_classification_total_time": "108h 43′ 11″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "11",
