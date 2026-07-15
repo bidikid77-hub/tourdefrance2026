@@ -398,7 +398,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Vichy",
-    "arrival_vi": "Nevers"
+    "arrival_vi": "Nevers",
+    "stage_winner": "S. WAERENSKJOLD",
+    "stage_winner_time": "03h 10′ 06″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "39h 25′ 08″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "317 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "42 PTS",
+    "white_jersey": "J. AYUSO",
+    "white_jersey_total_time": "39h 29′ 30″",
+    "team_classification_total_time": "118h 13′ 29″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "12",
