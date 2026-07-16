@@ -434,7 +434,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Circuit Nevers Magny-Cours",
-    "arrival_vi": "Chalon-sur-Saône"
+    "arrival_vi": "Chalon-sur-Saône",
+    "stage_winner": "T. MERLIER",
+    "stage_winner_time": "03h 38′ 53″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "43h 04′ 01″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "357 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "42 PTS",
+    "white_jersey": "J. AYUSO",
+    "white_jersey_total_time": "43h 08′ 23″",
+    "team_classification_total_time": "129h 10′ 08″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "13",
