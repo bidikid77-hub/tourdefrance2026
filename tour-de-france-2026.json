@@ -470,7 +470,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Dole",
-    "arrival_vi": "Belfort"
+    "arrival_vi": "Belfort",
+    "stage_winner": "M. SCHMID",
+    "stage_winner_time": "04h 06′ 58″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "47h 18′ 31″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "377 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "42 PTS",
+    "white_jersey": "J. AYUSO",
+    "white_jersey_total_time": "47h 22′ 53″",
+    "team_classification_total_time": "141h 53′ 38″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "14",
