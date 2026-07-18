@@ -506,7 +506,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Mulhouse",
-    "arrival_vi": "Le Markstein Fellering"
+    "arrival_vi": "Le Markstein Fellering",
+    "stage_winner": "T. POGACAR",
+    "stage_winner_time": "04h 00′ 07″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "51h 18′ 28″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "397 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "52 PTS",
+    "white_jersey": "P. SEIXAS",
+    "white_jersey_total_time": "51h 23′ 47″",
+    "team_classification_total_time": "153h 59′ 59″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "15",
