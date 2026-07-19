@@ -542,7 +542,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Champagnole",
-    "arrival_vi": "Plateau de Solaison"
+    "arrival_vi": "Plateau de Solaison",
+    "stage_winner": "R. EVENEPOEL",
+    "stage_winner_time": "04h 23′ 09″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "55h 41′ 31″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "417 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "67 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "55h 47′ 29″",
+    "team_classification_total_time": "167h 15′ 39″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "-",
