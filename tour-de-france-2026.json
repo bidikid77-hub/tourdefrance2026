@@ -592,7 +592,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Évian-les-Bains",
-    "arrival_vi": "Thonon-les-Bains"
+    "arrival_vi": "Thonon-les-Bains",
+    "stage_winner": "R. EVENEPOEL",
+    "stage_winner_time": "00h 32′ 19″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "56h 14′ 18″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "417 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "70 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "56h 21′ 09″",
+    "team_classification_total_time": "168h 59′ 28″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "17",
