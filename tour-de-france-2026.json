@@ -664,7 +664,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Voiron",
-    "arrival_vi": "Orcières-Merlette"
+    "arrival_vi": "Orcières-Merlette",
+    "stage_winner": "R. CARAPAZ",
+    "stage_winner_time": "04h 26′ 21″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "64h 35′ 13″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "477 PTS",
+    "polka_dot_jersey": "T. POGACAR",
+    "polka_dot_jersey_points": "70 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "64h 42′ 04″",
+    "team_classification_total_time": "193h 36′ 59″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "19",
