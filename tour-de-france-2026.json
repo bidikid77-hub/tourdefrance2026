@@ -736,7 +736,20 @@
     "gradient_final_km_vi": "",
     "vertical_meters_vi": "",
     "departure_vi": "Le Bourg d'Oisans",
-    "arrival_vi": "Alpe d'Huez"
+    "arrival_vi": "Alpe d'Huez",
+    "stage_winner": "R. CARAPAZ",
+    "stage_winner_time": "04h 59′ 39″",
+    "yellow_jersey": "T. POGACAR",
+    "yellow_jersey_total_time": "72h 53′ 44″",
+    "green_jersey": "M. PEDERSEN",
+    "green_jersey_points": "527 PTS",
+    "polka_dot_jersey": "R. CARAPAZ",
+    "polka_dot_jersey_points": "156 PTS",
+    "white_jersey": "I. DEL TORO",
+    "white_jersey_total_time": "73h 03′ 26″",
+    "team_classification_total_time": "219h 01′ 16″",
+    "gc_leader": "T. POGACAR",
+    "status": "completed"
   },
   {
     "stage": "21",
